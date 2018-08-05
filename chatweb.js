@@ -556,7 +556,7 @@ function send_get(s_g){
 		mIcon.style.marginLeft = "1%";
 		mIcon.style.marginRight = "2%";
 		mIcon.style.borderRadius = mIcon.clientWidth * 0.3 + "px";
-		mIcon.src = "girl.jpg";
+		mIcon.src = "tx/1.jpg";
 		
 		mInfo.style.width = "86%";
 		mInfo.style.marginTop = parseInt(mIcon.style.marginTop) + "px";
