@@ -162,7 +162,7 @@ onload = function(){
 	friend_icon_first.style.marginLeft = "5%";
 	friend_icon_first.style.marginTop = "4%";
 	friend_icon_first.style.borderRadius = friend_icon_first.clientWidth/4 + "px";
-	friend_icon_first.src = "头像/0.jpg";
+	friend_icon_first.src = "tx/0.jpg";
 	friend_icon_first.onmousedown = function(e){
 			e.preventDefault();
 	};
@@ -234,7 +234,7 @@ onload = function(){
 		friend_icon.style.marginLeft = "5%";
 		friend_icon.style.marginTop = "4%";
 		friend_icon.style.borderRadius = friend_icon.clientWidth/4 + "px";
-		friend_icon.src = "头像/" + i +".jpg";
+		friend_icon.src = "tx/" + i +".jpg";
 		friend_icon.onmousedown = function(e){
 			e.preventDefault();
 		};
