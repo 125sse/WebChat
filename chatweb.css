@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background:#9F8480;
+}
+
+@font-face{
+	font-family: myFont;
+	src:url(HYChuLWSJG.ttf);
+}
+
+@font-face{
+	font-family: myFont_content;
+	src:url(HYBeiWeiXieJingW.ttf);
+}
+
+#mbody{
+	animation:myFrame 3s infinite;
+}
+
+#left{
+	position:absolute;
+	width: 5%;
+	height: 100%;
+	float: left;
+	background: #27292E;
+	cursor: default;
+}
+
+#icon{
+	position:absolute;
+	float: left;
+	clear: both;
+	user-select: none;
+	cursor: pointer;
+}
+
+#touxiang{
+	border-radius: 24px;
+	user-select: none;
+}
+
+#info{
+	position:absolute;
+	float: left;
+	clear: both;
+	user-select: none;
+	cursor: pointer;
+}
+
+#contact{
+	position:absolute;
+	float: left;
+	clear: both;
+	user-select: none;
+	cursor: pointer;
+}
+
+#set{
+	position:absolute;
+	float: left;
+	clear: both;
+	user-select: none;
+	cursor: pointer;
+}
+
+
+
+#friends{
+	position:absolute;
+	width: 20%;
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+	background: #E4E4E4;
+	border-top: 1px solid #C4C4C4;
+	border-bottom: 1px solid #C4C4C4;
+}
+
+#seach_add{
+	position:absolute;
+	float: left;
+	clear: both;
+	cursor: default;
+}
+
+#friend_contact{
+	position:absolute;
+	float: left;
+	clear: both;
+	overflow-y:scroll;
+	overflow-x: hidden;
+	width: 100%;
+	cursor: default;
+}
+
+ #friend_contact::-webkit-scrollbar-track
+    {
+        background-color: #E4E4E4;
+    }
+    /*定义滚动条高宽及背景*/
+ #friend_contact::-webkit-scrollbar
+    {
+        width: 9px;
+    }
+    /*定义滚动条*/
+ #friend_contact::-webkit-scrollbar-thumb
+    {
+        background-color: rgb(204,201,199);
+        border-radius: 9px;
+    }
+
+#first_friend{
+	position:absolute;
+	float: left;
+	clear: both;
+	width: 99%;
+	height: 10%;
+}
+
+#right{
+	position:absolute;
+	float: left;
+}
+
+#right_title{
+	position: absolute;
+	float: left;
+	clear: both;
+	background: #F5F5F5;
+}
+
+#right_t_name{
+	position: absolute;
+	float: left;
+	clear: both;
+	text-align: left;
+	color: black;
+	font-family: myFont;
+}
+
+#right_chat{
+	position:absolute;
+	float: left;
+	clear: both;
+	background: rgb(245,245,245);
+	overflow-y: auto;
+	cursor: default;
+}
+
+#right_write{
+	position:relative;
+	float: left;
+	clear: both;
+}
+
+#right_w_option{
+	position:relative;
+	float: left;
+	clear: both;
+}
+
+#emoj{
+	position:absolute;
+	float: left;
+}
+
+#file{
+	position:absolute;
+	float: left;
+}
+
+#cut{
+	position:absolute;
+	float: left;
+}
+
+#record{
+	position:absolute;
+	float: left;
+}
+
+#video{
+	position:absolute;
+	float: left;
+}
+
+#voice{
+	position:absolute;
+	float: left;
+}
+
+
+#right_w_edit{
+	position:relative;
+	float: left;
+	clear: both;
+}
+
+#right_w_send{
+	position:relative;
+	float: left;
+	clear: both;
+}
+
+#send{
+	position:relative;
+	float:right;
+	cursor: pointer;
+}
+
+#set_pop{
+	position: absolute;
+	width: 10%;
+	height: 20%;
+	margin-left: 5%;
+	border: 1px solid #101EC0;
+	background: #6F6F0E;
+}
+
+@keyframes myFrame{
+	0%{
+		box-shadow: 20px 20px 5px rgba(255,255,255,0.0);
+	}
+	50%{
+		box-shadow: 20px 20px 5px rgba(255,255,255,0.5);
+	}
+	100%{
+		box-shadow: 20px 20px 5px rgba(255,255,255,0.0);
+	}
+}
